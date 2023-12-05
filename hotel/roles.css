@@ -1,0 +1,32 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color:rgb(0, 119, 255);
+    color:aqua;
+    text-align: center;
+    padding: 10px;
+}
+h2 {
+    color:aliceblue;
+}
+
+p {
+    color:aqua;
+    margin-bottom: 20px;
+}
+
+h2:after {
+    content: " -";
+    color: #007bff;
+}
+
+h2:nth-child(odd):after {
+    content: " -";
+    color:antiquewhite;
+}
+
+h2:nth-child(even):after {
+    content: " -";
+    color: #dc3545;
+}

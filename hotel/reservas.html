@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reservas.css">
+    <title>Formulario de Reservas de Hotel</title>
+</head>
+<body>
+    <div>
+<h1>Formulario de Reservas de Hotel</h1>
+<div>
+    <h2>cliente individual</h2>
+    <form action="procesar_reserva.php" method="POST">
+    <label>NOMBRE COMPLETO:</label>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <label>GMAIL:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label>FECHA DE LLEGADA:</label>
+    <input type="date" id="fecha_llegada" name="fecha_llegada" required><br><br>
+
+    <label>FECHA DE SALIDA:</label>
+    <input type="date" id="fecha_salida" name="fecha_salida" required><br><br>
+    
+    <label for=""></label>
+
+    <label>ALQUILAR LA ABITACION CON MEDIA PENSION:</label>
+    <input type id="media PENSION" name="media pension"><br>
+    <button type="submit">si</button>
+    <button type="submit">no</button><br><br>
+
+    <label>NUMERO DE ABITACIONES:</label>
+    <input type="number" id="num_habitaciones" name="num_habitaciones" required><br><br>
+
+    <label>ABITACION PARA NO FUMADORES:</label><br><br>
+    <input type="checkbox" id="no fumador" name="no fumador">
+    <button type="submit">RESERVAR</button><br><br>
+    <label>TARJETA DE CREDITO</label>
+    <input type="text" id="tarjeta" name="tarjeta">
+    </form>
+    <input type="submit" id="enviar" value="enviar reserva" required>
+</form>
+</div>
+<div>
+    <h3>cliente empresa</h3>
+    <form action="procesar_reserva.php" method="POST">
+    <label>NOMBRE COMPLETO:</label>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <label>GMAIL:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label>FECHA DE LLEGADA:</label>
+    <input type="date" id="fecha_llegada" name="fecha_llegada" required><br><br>
+
+    <label>FECHA DE SALIDA:</label>
+    <input type="date" id="fecha_salida" name="fecha_salida" required><br><br>
+    
+    <label for=""></label>
+
+    <label>ALQUILAR LA ABITACION CON MEDIA PENSION:</label>
+    <input type id="media PENSION" name="media pension"><br>
+    <button type="submit">si</button>
+    <button type="submit">no</button><br><br>
+
+    <label>NUMERO DE ABITACIONES:</label>
+    <input type="number" id="num_habitaciones" name="num_habitaciones" required><br><br>
+
+    <label>ABITACION PARA NO FUMADORES:</label><br><br>
+    <input type="checkbox" id="no fumador" name="no fumador">
+    <button type="submit">RESERVAR</button>
+    </form>
+
+</div>
+    
+    <input type="submit" id="enviar" value="enviar reserva" required>
+</form>
+<footer>
+    <p>&copy; 2023 Gestión de Reservas</p>
+</footer>
+</body>
+</html>
